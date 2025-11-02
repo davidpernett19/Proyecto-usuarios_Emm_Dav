@@ -1,11 +1,12 @@
 import React from 'react';
-import UserList from './componentes/ListaUsuarios';
+import UserList from "./componentes/userList";
+import UserForm from './componentes/UserForm';
 
 function App() {
   return (
     <div>
-      <h1>React + MySQL Example</h1>
-
+      <h1>Gestión de Usuarios</h1>
+      <UserForm />
       <UserList />
     </div>
   );
