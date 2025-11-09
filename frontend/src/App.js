@@ -1,14 +1,10 @@
-import React from 'react';
-import UserList from './componentes/ListaUsuarios';
+// frontend/src/App.js
+import { useState } from "react";
+import Login from "./Login";
+import Crud from "./Crud";
 
-function App() {
-  return (
-    <div>
-      <h1>React + MySQL Example</h1>
 
-      <UserList />
-    </div>
-  );
+export default function App(){
+  const [logueado,setLogueado]=useState(false);
+  return logueado ? <Crud/> : <Login setLogueado={setLogueado}/>;
 }
-
-export default App;

@@ -1,0 +1,31 @@
+/* fondo FEID verde oscuro */
+.feid-bg{
+  background-color:#092b20 !important;
+}
+
+/* tarjeta negra con borde verde neon */
+.feid-card{
+  background-color:#000;
+  color:white;
+  border:1px solid #0ADE59;
+  border-radius:12px;
+}
+
+/* botón verde neon */
+.feid-btn{
+  background-color:#0ADE59;
+  border:none;
+  font-weight:bold;
+}
+
+.feid-btn:hover{
+  background-color:#09c34f;
+  color:#000;
+}
+
+/* NEON verde cuando se escribe */
+.form-control:focus{
+  border-color:#0ADE59 !important;
+  box-shadow:0 0 8px #0ADE59 !important;
+}
+
