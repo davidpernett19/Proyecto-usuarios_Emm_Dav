@@ -34,7 +34,7 @@ MODIFICACION DEL PROYECTO DESDE BACKEND:
    - Se agregaron componentes: Login.js, Crud.js
    - Se integró conexión con el backend para login y CRUD
 
-4. Jueves 6 de noviembre – Estilizado con Bootstrap y tema FEID
+4. Jueves 6 de noviembre – Estilizado con Bootstrap
    - David Pernett
    - Se instaló Bootstrap en frontend
    - Se creó feid.css con colores verde oscuro #0F3D2E y verde neón #0ADE59
